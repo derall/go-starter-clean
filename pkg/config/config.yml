@@ -1,0 +1,15 @@
+appname: default
+port: 9090
+logger:
+    use: zapLogger
+    environment: dev
+    loglevel: debug
+    filename: default.log
+db:
+    use: postgres
+    enabled: true
+    host: localhost
+    port: 5432
+    userName: root
+    password: root
+    database: default
